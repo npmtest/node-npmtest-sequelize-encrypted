@@ -1,6 +1,6 @@
 # npmtest-sequelize-encrypted
 
-#### test coverage for  [sequelize-encrypted (v1.0.0)](https://github.com/defunctzombie/sequelize-encrypted)  [![npm package](https://img.shields.io/npm/v/npmtest-sequelize-encrypted.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-sequelize-encrypted) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-sequelize-encrypted.svg)](https://travis-ci.org/npmtest/node-npmtest-sequelize-encrypted)
+#### basic test coverage for  [sequelize-encrypted (v1.0.0)](https://github.com/defunctzombie/sequelize-encrypted)  [![npm package](https://img.shields.io/npm/v/npmtest-sequelize-encrypted.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-sequelize-encrypted) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-sequelize-encrypted.svg)](https://travis-ci.org/npmtest/node-npmtest-sequelize-encrypted)
 
 #### encrypted sequelize fields
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-sequelize-encrypted/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-sequelize-encrypted/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-sequelize-encrypted/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-sequelize-encrypted/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-sequelize-encrypted/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-sequelize-encrypted/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-sequelize-encrypted/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-sequelize-encrypted/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-sequelize-encrypted/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-sequelize-encrypted/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-sequelize-encrypted/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-sequelize-encrypted/build/coverage.html/index.html)
 
@@ -80,7 +80,8 @@
     "scripts": {
         "test": "mocha"
     },
-    "version": "1.0.0"
+    "version": "1.0.0",
+    "bin": {}
 }
 ```
 
